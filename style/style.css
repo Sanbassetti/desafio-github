@@ -8,7 +8,9 @@
 body {
     background-color: #646668;
     font-family: 'Oxygen', sans-serif;
-    color: whitesmoke
+    color: whitesmoke;
+    max-width: 1300px;
+    margin: 0 auto;  
 }
 
 /* fin body general */
