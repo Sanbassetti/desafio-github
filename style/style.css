@@ -6,9 +6,15 @@
 
 /* body general */
 body {
-    background-color: #646668;
+    background-color: #373230;
+    background-image: linear-gradient(90deg, #373230 0%, #acaba8 100%);       
     font-family: 'Oxygen', sans-serif;
     color: whitesmoke;
+}
+
+.caja{
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* fin body general */
@@ -19,7 +25,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    
 
 }
 
@@ -71,7 +77,7 @@ h1 {
     padding: 10px;
     font-family: 'Silkscreen', cursive;
     color: #ecaf77;
-    border: 1px solid grey;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -100,7 +106,7 @@ article h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -129,7 +135,7 @@ article h2 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -157,7 +163,7 @@ article h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 
 }
@@ -195,8 +201,8 @@ article h2 {
 .juegos__pc--index {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
-
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
 
 }
 
@@ -209,12 +215,14 @@ article h2 {
 .juegos__ps5--index {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
 }
 
 .juegos__ps5--index p {
     font-size: 18px;
     margin: 20px;
+    
 
 }
 
@@ -246,7 +254,7 @@ aside p {
 .publicidad__imagenes--index {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
     padding: 15px;
 
 }
@@ -254,9 +262,9 @@ aside p {
 .publicidad__video--index {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
 
 }
 
@@ -274,8 +282,7 @@ aside p {
     font-family: 'Oxygen', sans-serif;
     color: whitesmoke;
     font-size: 18px;
-    margin: 20px;
-    border: 1px solid grey;
+    margin: 1px solid rgb(0, 0, 0);
 
 }
 
@@ -292,7 +299,7 @@ aside p {
     color: whitesmoke;
     font-size: 18px;
     margin: 20px;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .noticia__ps5--not img {
@@ -308,7 +315,7 @@ aside p {
     color: whitesmoke;
     font-size: 18px;
     margin: 20px;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .noticia__xbox--not img {
