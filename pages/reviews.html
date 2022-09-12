@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/iconos/bar-gamer-icono.ico">
     <script src="https://kit.fontawesome.com/53c03a9f94.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../style/style.css">
-    <link
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css"><link
         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap"
         rel="stylesheet">
     <title>Bar Gamer | Reviews </title>
@@ -27,10 +28,10 @@
                 <li><a href="./nosotros.html">Nosotros</a></li>
             </ul>
         </nav>
-        <h1>Reviews</h1>
+        <h1 class=" animate__animated animate__swing">Reviews</h1>
     </header>
-    <section class="section-rev" class="caja">
-        <article>
+    <section class="section-rev">
+        <article data-aos="flip-left">
             <h2>Audio</h2>
             <div class="video__audio--rev">
                 <h3>Hyperex Cloud 2</h3>
@@ -55,7 +56,7 @@
             </div>
 
         </article>
-        <article>
+        <article data-aos="flip-right">
             <h2>Microfono</h2>
             <div class="video__microfono--rev">
                 <h3>Hyperex Quadcast</h3>
@@ -79,7 +80,7 @@
             </div>
         </article>
 
-        <article>
+        <article  data-aos="fade-down">
             <h2>Mouse</h2>
             <div class="video__mouse--rev">
                 <h3>Hyperex Fps Pro</h3>
@@ -103,7 +104,7 @@
             </div>
         </article>
 
-        <article>
+        <article data-aos="fade-right">
             <h2>Teclado</h2>
             <div class="video__teclado--rev">
                 <h3>hyperex Alloy Fps</h3>
@@ -143,4 +144,8 @@
 
 </body>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </html>

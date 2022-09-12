@@ -78,6 +78,7 @@ h1 {
     font-family: 'Silkscreen', cursive;
     color: #ecaf77;
     border-bottom: 1px solid rgb(0, 0, 0);
+    margin: 20px
 }
 
 
@@ -282,7 +283,8 @@ aside p {
     font-family: 'Oxygen', sans-serif;
     color: whitesmoke;
     font-size: 18px;
-    margin: 1px solid rgb(0, 0, 0);
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);;
 
 }
 
@@ -383,6 +385,11 @@ aside p {
 
 /* pag reviews */
 
+.section-rev{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .video__audio--rev {
     display: flex;
     flex-direction: column;
@@ -444,7 +451,10 @@ aside p {
 
 /* pag nostros */
 
-
+.section-nos{
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 
 

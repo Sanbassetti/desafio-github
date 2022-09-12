@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/iconos/bar-gamer-icono.ico">
     <script src="https://kit.fontawesome.com/53c03a9f94.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/style.css">
-    <link
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css"><link
         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Silkscreen:wght@400;700&display=swap"
         rel="stylesheet">
 
@@ -30,12 +31,12 @@
 
     </header>
     <main class="caja">
-        <h1 class="titulo__index">BAR GAMER</h1>
+        <h1 class="titulo__index animate__animated animate__swing" >BAR GAMER</h1>
         <section class="section__noticias--index">
             <article>
                 <h2>Top Noticias</h2>
                 <h3>Lo Nuevo de la PS5</h3>
-                <div class="noticia1__index">
+                <div class="noticia1__index" data-aos="flip-left">
                     <a href="./pages/noticias.html"><img src="./imagenes/noticias/noticia-ps5.jpg" alt="Portada-de-noticia-1"></a>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus in vero nesciunt magni non.
                         Earum dolore blanditiis consequatur inventore eos libero vitae? Eligendi nulla sequi tenetur!
@@ -62,7 +63,7 @@
                     </p>
                 </div>
                 <h3>Lo Nuevo de Steam</h3>
-                <div class="noticia2__index">
+                <div class="noticia2__index" data-aos="flip-right">
                     <a href="./pages/noticias.html"><img src="./imagenes/noticias/noticia-steam.png" alt="Portada-de-noticia-1"></a>                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus in vero nesciunt magni non.
                         Earum dolore blanditiis consequatur inventore eos libero vitae? Eligendi nulla sequi tenetur!
                         Obcaecati sequi ducimus quasi nesciunt eaque dicta, quia officiis ipsum eius autem dignissimos
@@ -88,7 +89,7 @@
                     </p>
                 </div>
                 <h3>Lo Nuevo de xseries</h3>
-                <div class="noticia3__index">
+                <div class="noticia3__index"  data-aos="fade-down">
                     <a href="./pages/noticias.html"><img src="./imagenes/noticias/noticia-xseries.png" alt="Portada-de-noticia-1"></a>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus in vero nesciunt magni non.
                         Earum dolore blanditiis consequatur inventore eos libero vitae? Eligendi nulla sequi tenetur!
@@ -118,7 +119,7 @@
             <article class="top__juegos--index">
                 <h2>Top Juegos</h2>
                 <h3>PC</h3>
-                <div class="juegos__pc--index">
+                <div class="juegos__pc--index" data-aos="fade-right">
                     <img src="./imagenes/juegos/cs-foto.jpg" alt="juego-cs">
                     <p>Counter Strike: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic sapiente
                         corporis. Incidunt, sint maxime. Eius, voluptatum libero. Possimus beatae ratione numquam
@@ -129,7 +130,7 @@
                         temporibus. Fugiat suscipit labore quod dicta cumque est.</p>
                 </div>
                 <h3>PS5</h3>
-                <div class="juegos__ps5--index">
+                <div class="juegos__ps5--index" data-aos="fade-left">
                     <img src="./imagenes/juegos/spiderman-foto.webp" alt="juego-spider">
                     <p>Spider-man Miles Morales: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni saepe
                         suscipit cupiditate facilis et nobis impedit distinctio modi voluptatem consectetur. Aut,
@@ -143,7 +144,7 @@
             </article>
         </section>
     </main>
-    <aside class="caja">
+    <aside class="caja" data-aos="fade-up-right">
         <div class="publicidad__imagenes--index">
             <img src="./imagenes/ad/ad-amazon.jpg" alt="publicidad">
             <p>publicidad: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas itaque odit fugit laudantium
@@ -175,6 +176,11 @@
         <p>Bar Gamer - Derechos Reservados</p>
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
